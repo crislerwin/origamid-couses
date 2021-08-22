@@ -1,3 +1,5 @@
 # This Repository is to be used for Origamid courses.
-## CSS
-- Flexbox
+##  Flexbox
+- `display: flex`
+
+ Torna o elemento um flex container automaticamente transformando todos os seus filhos diretos em flex itens.
