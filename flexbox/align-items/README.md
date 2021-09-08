@@ -1,29 +1,27 @@
-# align-content
+# Align items
 
-Alinha as linhas do container em relação ao eixo vertical. A propriedade só funciona se existir mais de uma linha de flex-itens. Para isso o flex-wrap precisa ser wrap.
+O align-items alinha os flex itens de acordo com o eixo do container. O alinhamento é diferente para quando os itens estão em colunas ou linhas.
 
-Além disso o efeito dela apenas será visualizado caso o container seja maior que a soma das linhas dos itens. Isso significa que se você não definir height para o container, a propriedade não influencia no layout.
+Essa propriedade permite o tão sonhado alinhamento central no eixo vertical, algo que antes só era possível com diferent
 
-- align-content: stretch;
+- align-itens: stretch;
 
-Valor padrão, ele que faz com que os flex itens cresçam igualmente na vertical.
+Valor padrão, ele que faz com que os flex itens cresçam igualmente.
 
-- align-content: flex-start;
+- align-itens: center;
 
-Alinha todas as linhas de itens ao início.
+Alinha os itens ao centro do container.
 
-- align-content: flex-end;
+- align-itens: baseline;
 
-Alinha todas as linhas de itens ao final.
+Alinha os itens de acordo com a linha base da tipografia.
 
-- align-content: center;
+- align-itens: flex-start;
 
-Alinha todas as linhas de itens ao centro.
+Ação de alinhar os itens ao início do container.
 
-- align-content: space-between;
+- align-itens: flex-end;
 
-Cria um espaçamento igual entre as linhas. Mantendo a primeira grudada no topo e a última no bottom.
+Alinha os itens ao final do container.
 
-- align-content: space-around;
-
-Cria um espaçamento entre as linhas. Os espaçamentos do mei
+![](../../.github/align-items.jpeg)
